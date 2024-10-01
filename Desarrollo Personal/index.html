@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plataforma interactiva para el crecimiento personal mediante seguimiento de hábitos, metas y asistencia de un chatbot inteligente.">
+    <title>Plataforma de Crecimiento Personal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Integrar Font Awesome -->
+</head>
+<body>
+    <!-- Encabezado del sitio -->
+    <header>
+        <img class="logo" src="Img/Logo3.jpg" alt="Logo">
+        <div class="abrir-menu" id="menu-toggle">☰</div> <!-- Icono de menú hamburguesa -->
+        <nav class="nav" id="menu">
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="habitos.html">Hábitos</a></li>
+                <li><a href="metas.html">Metas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+<br>
+    <center><h1>Impulsa tu Crecimiento Personal</h1></center>
+
+    <!-- Sección de introducción: Inicio -->
+    <section id="inicio">
+        <h2>Transforma tu vida con hábitos saludables y metas claras</h2>
+        <p>Bienvenido a nuestra plataforma de crecimiento personal, donde te ayudamos a establecer y mantener hábitos que cambian tu vida. Aquí no solo seguirás tus hábitos diarios, sino que también tendrás el poder de gestionar metas a largo plazo, todo con el apoyo de un chatbot inteligente.</p>
+        <p>¿Listo para empezar? Comienza revisando tu seguimiento de hábitos, el primer paso para crear una rutina sólida.</p>
+    </section>
+
+    <!-- Sección de seguimiento de hábitos -->
+    <section id="habitos">
+        <h2>Seguimiento de Hábitos: La clave para un cambio sostenido</h2>
+        <p>El cambio comienza con la repetición de acciones pequeñas. Aquí puedes registrar y monitorear tus hábitos diarios, y ver cómo esas acciones consistentemente repetidas te llevarán a alcanzar tus objetivos. El seguimiento de hábitos te ayudará a mantenerte enfocado y evitar las distracciones.</p>
+        <p>Cuando logres dominar tus hábitos, estarás listo para pasar a la gestión de metas, donde puedes enfocarte en el panorama general de tu vida.</p>
+    </section>
+
+    <!-- Sección de metas -->
+    <section id="metas">
+        <h2>Establecimiento de Metas: Define tu futuro</h2>
+        <p>Una vez que tengas control sobre tus hábitos, es el momento de visualizar metas más grandes. Esta sección te permitirá definir metas claras, específicas y medibles. Dividir tus metas en pasos pequeños y realizables es una de las mejores maneras de asegurarte de que realmente las alcanzas.</p>
+        <p>Además, mientras persigues tus metas, el chatbot inteligente estará a tu disposición para asistirte con recordatorios, motivación y consejos personalizados.</p>
+    </section>
+
+    <!-- Sección de asistencia chatbot -->
+    <section id="asistencia">
+        <h2>Asistencia del Chatbot: Tu acompañante inteligente</h2>
+        <p>Sabemos que el crecimiento personal puede ser desafiante. Nuestro chatbot está aquí para ayudarte en cada paso del camino. Puedes pedirle que te recuerde tus hábitos, te sugiera ajustes en tus metas o simplemente te motive a continuar cuando te sientas estancado.</p>
+        <p>El chatbot es una herramienta que se adapta a tus necesidades y estará siempre disponible cuando necesites una guía adicional. Descubre cómo puede ayudarte explorando la <a href="#contacto">sección de contacto</a> para aprender más.</p>
+        <div id="chatbot-container">
+            <!-- Div placeholder para el chatbot -->
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contacto: Estamos aquí para ti</h2>
+        <p>Si tienes alguna pregunta sobre la plataforma, o si necesitas más orientación sobre cómo aprovechar al máximo nuestras herramientas, no dudes en contactarnos. Estaremos encantados de ayudarte a personalizar tu experiencia y hacer que tu crecimiento personal sea aún más efectivo.</p>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Plataforma de Crecimiento Personal. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Integrar el archivo de script -->
+    <script src="chatbot.js"></script> <!-- Aquí puedes enlazar el archivo del chatbot -->
+</body>
+</html>
